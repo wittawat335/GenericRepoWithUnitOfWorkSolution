@@ -15,4 +15,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GenericRepoWithUnitOfWork.Core\GenericRepoWithUnitOfWork.Core.csproj" />
+    <ProjectReference Include="..\GenericRepoWithUnitOfWork.Domain\GenericRepoWithUnitOfWork.Domain.csproj" />
+    <ProjectReference Include="..\GenericRepoWithUnitOfWork.Infra\GenericRepoWithUnitOfWork.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
