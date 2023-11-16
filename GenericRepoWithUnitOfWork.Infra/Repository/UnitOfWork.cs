@@ -11,7 +11,7 @@ namespace GenericRepoWithUnitOfWork.Infra.Repository
         {
             _context = context;
             Product = new ProductRepository(context);
-            Category = new CategoryRepository(context);
+            Category = new CategoryRepository(context);//
         }
 
         public IProductRepository Product { get; private set; }
